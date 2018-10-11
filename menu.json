@@ -1,0 +1,33 @@
+{
+    "menu": {
+        "description": "root of menu",
+        "type": "menu_node",
+        "children": {
+            "sub1": {
+                "description": "value 1",
+                "type": "value_node",
+                "value_default": "1",
+                "value_min": "0",
+                "value_max": "2",
+                "value_descriptions": {
+                    "0": "foo",
+                    "1": "bar",
+                    "2": "baz"
+                }
+            },
+            "sub2": {
+                "description": "menu 1",
+                "type": "menu_node",
+                "children": {
+                    "sub1": {
+                        "description": "value 2",
+                        "type": "value_node",
+                        "value_default": "17",
+                        "value_min": "5",
+                        "value_max": "99"
+                    }
+                }
+            }
+        }
+    }
+}

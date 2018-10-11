@@ -1,0 +1,60 @@
+{
+    "settings": {
+        "0.78a": {
+            "version_major": "0",
+            "version_minor": "78",
+            "version_suffix": "a",
+            "setting_info": {
+                "foo": {
+                    "description": "1337",
+                    "type": "uint16",
+                    "loc": "initcfg",
+                    "loc_offset": "18",
+                    "value_default": "1337",
+                    "value_min": "0",
+                    "value_max": "7175",
+                    "array1": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "array2": [
+                        {
+                            "foo": "0"
+                        },
+                        {
+                            "foo": "1"
+                        },
+                        {
+                            "foo": "2"
+                        },
+                        {
+                            "foo": "3"
+                        },
+                        {
+                            "foo": "4"
+                        }
+                    ]
+                }
+            }
+        },
+        "1.79": {
+            "version_major": "1",
+            "version_minor": "79",
+            "version_suffix": "",
+            "setting_info": {
+                "bar": {
+                    "description": "80085",
+                    "type": "int8",
+                    "loc": "profile",
+                    "loc_offset": "325",
+                    "value_default": "-5",
+                    "value_min": "-128",
+                    "value_max": "127"
+                }
+            }
+        }
+    }
+}
